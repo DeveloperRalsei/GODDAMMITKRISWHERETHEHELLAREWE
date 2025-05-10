@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "esnext",
+    "allowJs": true,
+    "lib": ["dom", "DOM.Iterable", "esnext"],
+    "jsx": "react-jsx",
+    "resolveJsonModule": true,
+    "moduleResolution": "bundler",
+    "outDir": "dist",
+    "strict": true,
+    "alwaysStrict": true,
+    "baseUrl": ".",
+    "types": ["vite/client"]
+  },
+  "include": ["src/**/*", "vite.config.ts"],
+  "exclude": ["node_modules"]
+}
